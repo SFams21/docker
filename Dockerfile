@@ -2,7 +2,7 @@
 #Thanks to all teaching
 
 FROM node:latest
-MAINTAINER Panel Software, <diyan281118@gmail.com>
+LABEL author="Riyan Sipayung" maintainer="diyan281118@gmail.com"
 
 RUN apt-get update && \
   apt-get install -y \
@@ -29,7 +29,8 @@ RUN apt-get update && \
   figlet \
   toilet \
   chromium \
-  npm install npm@latest -g\
+  npm i -g npm@latest \
+  npm i -g yarn \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g pm2 nodemon pnpm ts-node
