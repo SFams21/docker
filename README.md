@@ -1,7 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
  
 <p align="center">
-<a href="https://VanzGantengz"><img title="Author" src="https://img.shields.io/badge/Author-ivanz-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://VanzGantengz"><img title="Author" src="https://img.shields.io/badge/Author-SFams21-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
 
