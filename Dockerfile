@@ -7,10 +7,15 @@ MAINTAINER Panel Software, <diyan281118@gmail.com>
 RUN apt-get update && apt-get upgrade && \
   apt-get install -y \
   python3 \
+  python3-dev \
   python-is-python3 \
   coreutils \
   zip \
   imagemagick \
+  iproute2 \
+  git \
+  sqlite3 \
+  libsqlite3-dev\
   webp \
   unzip \
   curl \
@@ -29,6 +34,12 @@ RUN apt-get update && apt-get upgrade && \
   figlet \
   toilet \
   chromium \
+  ca-certificates \
+  dnsutils \
+  tzdata \
+  tar \
+  build-essential \
+  libtool \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g npm@latest
