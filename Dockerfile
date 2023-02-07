@@ -2,7 +2,7 @@
 #Thanks to all teaching
 
 FROM node:latest
-LABEL author="Riyan Sipayung" maintainer="diyan281118@gmail.com"
+MAINTAINER Panel Software, <diyan281118@gmail.com>
 
 RUN apt-get update && \
   apt-get install -y \
