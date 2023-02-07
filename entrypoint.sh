@@ -3,7 +3,7 @@ CYAN="\e[94"
 STOP="\e[0m"
 
 printf "${CYAN}"
-figlet -t -f bigmono9 "Beta VIP"
+figlet -t -f bigmono9 "${CYAN} Beta VIP ${STOP}"
 printf "${STOP}"
 neofetch --stdout
 printf "\n\n"
