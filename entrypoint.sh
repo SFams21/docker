@@ -3,7 +3,7 @@ CYAN="\e[94"
 STOP="\e[0m"
 
 printf "${CYAN}"
-figlet -t "RIYAN SIPAYUNG"
+figlet -t -f smmono9 "RIYAN SIPAYUNG"
 printf "${STOP}"
 neofetch --stdout
 printf "\n\n"
