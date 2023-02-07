@@ -14,6 +14,7 @@ RUN apt-get update && \
   webp \
   unzip \
   curl \
+  nodejs \
   wget \
   libsox-fmt-all \
   sox \
