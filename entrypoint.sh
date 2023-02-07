@@ -3,9 +3,12 @@ CYAN="\e[94"
 STOP="\e[0m"
 
 printf "${CYAN}"
-figlet -t "VIP NODE"
+figlet -t "EGG DOCKER VIP"
+printf "${CYAN} VIP NODE RIYAN SIPAYUNG ${STOP}"
 printf "${STOP}"
 neofetch --stdout
+printf "\n\n"
+node -v
 printf "\n\n"
 printf "${RED} SILAHKAN MASUKKAN COMMAND !!${STOP}"
 echo ""
