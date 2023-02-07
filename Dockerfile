@@ -15,7 +15,7 @@ RUN apt-get update && apt-get upgrade && \
   iproute2 \
   git \
   sqlite3 \
-  libsqlite3-dev\
+  libsqlite3-dev \
   webp \
   unzip \
   curl \
