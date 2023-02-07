@@ -4,8 +4,8 @@
 FROM node:latest
 MAINTAINER Panel Software, <diyan281118@gmail.com>
 
-RUN apt-get update && apt-get upgrade && \
-  apt-get install -y \
+RUN apt update \
+  && apt -y install \
   python3 \
   python3-dev \
   python-is-python3 \
