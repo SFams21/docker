@@ -6,10 +6,13 @@ MAINTAINER Panel Software, <diyan281118@gmail.com>
 
 RUN apt update \
   && apt -y install \
+  build-essential \
   python3 \
   python3-dev \
   python-is-python3 \
   coreutils \
+  ca-certificates \
+  dnsutils \
   zip \
   imagemagick \
   iproute2 \
@@ -23,7 +26,7 @@ RUN apt update \
   libsox-fmt-all \
   sox \
   neofetch \
-  build-essential \
+  libsqlite3-dev \
   libcairo2-dev \
   libpango1.0-dev \
   libjpeg-dev \
