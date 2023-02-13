@@ -26,7 +26,6 @@ RUN apt update \
   libsox-fmt-all \
   sox \
   neofetch \
-  libwebp \
   libsqlite3-dev \
   libcairo2-dev \
   libpango1.0-dev \
