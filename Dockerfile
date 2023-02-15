@@ -36,12 +36,15 @@ RUN apt update \
   golang-go \
   figlet \
   toilet \
+  tesseract-ocr \
   chromium \
   ca-certificates \
   dnsutils \
   tzdata \
   tar \
   build-essential \
+  yarn \
+  sudo \
   libtool \
   && adduser --disabled-password --home /home/container container
 
