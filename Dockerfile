@@ -7,6 +7,7 @@ MAINTAINER Panel Software, <diyan281118@gmail.com>
 RUN apt update \
   && apt -y install \
   build-essential \
+  bash \
   python3 \
   python3-dev \
   python-is-python3 \
@@ -42,7 +43,6 @@ RUN apt update \
   dnsutils \
   tzdata \
   tar \
-  build-essential \
   yarn \
   sudo \
   libtool \
