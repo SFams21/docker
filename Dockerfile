@@ -12,6 +12,7 @@ RUN apt update \
   python3-dev \
   python-is-python3 \
   coreutils \
+  cfonts \
   ca-certificates \
   dnsutils \
   zip \
