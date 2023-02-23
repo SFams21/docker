@@ -46,6 +46,11 @@ RUN apt update \
   yarn \
   sudo \
   libtool \
+  jq \ 
+  file \
+  make \
+  gcc \
+  g++ \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g npm@9.5.0
