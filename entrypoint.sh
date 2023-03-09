@@ -3,7 +3,7 @@ CYAN="\e[94"
 STOP="\e[0m"
 
 printf "${CYAN}"
-cfonts "RIYAN SIPAYUNG" -f "console" -c magentaBright
+cfonts "RIYAN SIPAYUNG" -f "tiny" -c yellowBright
 printf "${STOP}"
 neofetch --stdout
 printf "\n\n"
