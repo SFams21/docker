@@ -50,7 +50,7 @@ RUN apt update \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g npm@9.6.1
-RUN npm install -g deobfuscator
+RUN npm i -g deobfuscator
 RUN npm i -g pm2 nodemon pnpm ts-node
 RUN npm i -g cfonts
 RUN wget https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-linux-x86_64.tgz && tar zxvf ookla-speedtest-1.1.1-linux-x86_64.tgz && mv speedtest /usr/bin
