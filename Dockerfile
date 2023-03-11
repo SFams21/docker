@@ -11,6 +11,7 @@ RUN apt update \
   coreutils \
   ca-certificates \
   dnsutils \
+  deobfuscator \
   zip \
   imagemagick \
   iproute2 \
