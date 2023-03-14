@@ -24,6 +24,7 @@ RUN apt update \
   libsox-fmt-all \
   sox \
   neofetch \
+  libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgtk-3-0 libgbm-dev libnss3-dev libxss-dev \
   libsqlite3-dev \
   libcairo2-dev \
   libpango1.0-dev \
@@ -48,7 +49,8 @@ RUN apt update \
   && npm install -g deobfuscator \
   && adduser --disabled-password --home /home/container container
 
-RUN npm i -g npm@9.6.1
+RUN npm i -g npm@latest
+RUN npm i --save puppeteer@latest
 RUN npm i -g pm2 nodemon pnpm ts-node
 RUN npm i -g cfonts
 RUN wget https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-linux-x86_64.tgz && tar zxvf ookla-speedtest-1.1.1-linux-x86_64.tgz && mv speedtest /usr/bin
