@@ -45,7 +45,7 @@ RUN apt update \
   file make \
   gcc \
   g++ \
-  && npm i - g deobfuscator@2.4.1
+  && npm i - g deobfuscator@2.4.1 \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g npm@latest
