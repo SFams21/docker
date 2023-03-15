@@ -14,6 +14,7 @@ RUN apt update \
   zip \
   imagemagick \
   iproute2 \
+  puppeteer \
   git \
   sqlite3 \
   libsqlite3-dev \
