@@ -14,7 +14,6 @@ RUN apt update \
   zip \
   imagemagick \
   iproute2 \
-  puppeteer \
   git \
   sqlite3 \
   libsqlite3-dev \
@@ -41,19 +40,17 @@ RUN apt update \
   tzdata \
   tar \
   yarn \
-  sudo \
   libtool \
   jq \ 
   file make \
   gcc \
   g++ \
-  && npm install -g deobfuscator \
   && adduser --disabled-password --home /home/container container
 
 RUN npm i -g npm@latest
-RUN npm i -g puppeteer@19.7.5
+RUN npm i -g puppeteer@19.2.0
 RUN npm i -g pm2 nodemon pnpm ts-node
-RUN npm i -g cfonts
+RUN npm i -g cfonts deobfuscator
 RUN wget https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-linux-x86_64.tgz && tar zxvf ookla-speedtest-1.1.1-linux-x86_64.tgz && mv speedtest /usr/bin
 
 USER container
